@@ -4,28 +4,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inspirato — Luxury Travel. Reimagined.</title>
+  <title>Elevated India | Bespoke Luxury Journeys</title>
+
+  <link rel="icon" type="image/png" href="fabicon/8.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;1,400&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
     rel="stylesheet" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- ═══════════════════════════════════════════
-       CURSOR GLOW
-  ═══════════════════════════════════════════ -->
+  <!-- CURSOR GLOW -->
   <div class="cursor-glow" id="cursorGlow"></div>
 
-  <!-- ═══════════════════════════════════════════
-       NAVBAR
-  ═══════════════════════════════════════════ -->
-
-
-
-
+  <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="nav-left">
       <a href="#" class="nav-logo">
@@ -35,12 +31,13 @@
 
     <div class="nav-right">
       <div class="nav-menu" id="navMenu">
-        <a href="#travel" class="nav-link">Travel</a>
+        <a href="#journeys" class="nav-link">Journeys</a>
         <a href="#experiences" class="nav-link">Experiences</a>
-        <a href="#care" class="nav-link">Care</a>
-        <a href="#membership" class="nav-link">Membership</a>
-        <a href="#signin" class="nav-link nav-signin">Sign In</a>
-        <a href="#get-started" class="nav-cta">Get Started</a>
+        <a href="#destinations" class="nav-link">Destinations</a>
+        <a href="#concierge" class="nav-link">Concierge</a>
+        <a href="#journal" class="nav-link">Journal</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#inquiry" class="nav-cta">Begin Your Journey</a>
       </div>
       <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -48,13 +45,9 @@
     </div>
   </nav>
 
-
-  <!-- ═══════════════════════════════════════════
-       HERO SECTION
-  ═══════════════════════════════════════════ -->
+  <!-- HERO SECTION -->
   <section class="hero" id="hero">
     <div class="hero-bg">
-      <!-- Parallax layers using CSS gradients + Unsplash -->
       <div class="hero-layer hero-layer-1"></div>
       <div class="hero-layer hero-layer-2"></div>
       <div class="hero-overlay"></div>
@@ -64,689 +57,503 @@
     <div class="hero-content">
       <div class="hero-eyebrow reveal-fade">
         <span class="eyebrow-line"></span>
-        <span>Luxury Travel Subscription</span>
+        <span>Private Travel House</span>
         <span class="eyebrow-line"></span>
       </div>
       <h1 class="hero-headline">
-        <span class="hero-line reveal-slide" style="--delay: 0.1s">The World Is Waiting.</span>
-        <em class="hero-line reveal-slide" style="--delay: 0.3s">Go Live Your Story.</em>
+        <span class="hero-line reveal-slide" style="--delay: 0.1s"> Elevated</span>
+        <em class="hero-line reveal-slide" style="--delay: 0.3s">India.</em>
       </h1>
-      <!-- <p class="hero-sub reveal-fade" style="--delay: 0.5s">
-        Explore 170+ destinations with zero stress, complete planning, and premium experiences.
-
-      </p> -->
+      <p class="hero-sub reveal-fade" style="--delay: 0.5s">
+        Bespoke journeys crafted with rare access, cultural depth, and uncompromising discretion.
+      </p>
       <div class="hero-actions reveal-fade" style="--delay: 0.7s">
-        <a href="#membership" class="btn btn-primary">
-          <span>Begin Your Journey</span>
+        <a href="#inquiry" class="btn btn-primary">
+          <span>Design My Journey</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
-        <a href="#how" class="btn btn-ghost">
+        <a href="#concierge" class="btn btn-ghost">
           <span>How It Works</span>
         </a>
       </div>
       <div class="hero-stats reveal-fade" style="--delay: 0.9s">
         <div class="hero-stat">
-          <span class="stat-num" data-count="300">0</span><span>+</span>
-          <span class="stat-label">Private Residences</span>
+          <span class="stat-num" data-count="50">0</span><span>+</span>
+          <span class="stat-label">Private Palaces</span>
         </div>
         <div class="stat-divider"></div>
         <div class="hero-stat">
-          <span class="stat-num" data-count="170">0</span><span>+</span>
-          <span class="stat-label">Destinations</span>
+          <span class="stat-num" data-count="28">0</span>
+          <span class="stat-label">States Covered</span>
         </div>
         <div class="stat-divider"></div>
         <div class="hero-stat">
-          <span class="stat-num" data-count="200">0</span><span>+</span>
-          <span class="stat-label">Award-Winning Hotels</span>
+          <span class="stat-num" data-count="15">0</span><span>+</span>
+          <span class="stat-label">Years of Expertise</span>
         </div>
       </div>
     </div>
 
     <div class="hero-scroll-indicator">
-      <span class="scroll-text">Scroll</span>
+      <span class="scroll-text">Discover</span>
       <div class="scroll-line">
         <div class="scroll-dot"></div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       TRUST BAR
-  ═══════════════════════════════════════════ -->
+  <!-- TRUST BAR -->
   <section class="trust-bar">
     <div class="trust-inner">
       <div class="trust-item">
-        <span class="trust-icon">◈</span>
-        <span>Consistent Standards, Every Stay</span>
+        <span class="trust-icon">&#9670;</span>
+        <span>Privileged Access</span>
       </div>
-      <div class="trust-dot">·</div>
+      <div class="trust-dot">|</div>
       <div class="trust-item">
-        <span class="trust-icon">◈</span>
-        <span>24/7 Dedicated Care Team</span>
+        <span class="trust-icon">&#9670;</span>
+        <span>End-to-End Curation</span>
       </div>
-      <div class="trust-dot">·</div>
+      <div class="trust-dot">|</div>
       <div class="trust-item">
-        <span class="trust-icon">◈</span>
-        <span>Groceries Pre-Stocked. Reservations Secured.</span>
+        <span class="trust-icon">&#9670;</span>
+        <span>Cultural Intelligence</span>
       </div>
-      <div class="trust-dot">·</div>
+      <div class="trust-dot">|</div>
       <div class="trust-item">
-        <span class="trust-icon">◈</span>
-        <span>No Surprises. Just Standards.</span>
+        <span class="trust-icon">&#9670;</span>
+        <span>Complete Discretion</span>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       BRAND STATEMENT
-  ═══════════════════════════════════════════ -->
+  <!-- BRAND PROMISE SECTION -->
   <section class="brand-statement" id="about">
     <div class="container">
       <div class="statement-grid">
         <div class="statement-label reveal-fade">
-          <span>About Inspirato</span>
+          <span>Our Philosophy</span>
         </div>
         <div class="statement-text reveal-slide-up">
           <p class="statement-large">
-            Fall in love with the power of <em>certainty.</em>
+            India interpreted for the <em>discerning few.</em>
           </p>
           <p class="statement-body">
-            Elivated India is not just a travel subscription — it’s a new way to experience the world.
-            Designed for those who refuse to compromise, it offers seamless access to a global collection of luxury
-            homes, five-star hotels, and curated experiences across 170+ destinations.
+            Elevated India is not a travel agency. It is a private travel house dedicated to crafting bespoke journeys
+            for affluent global travellers who seek more than destinations. We curate rare experiences across the
+            subcontinent with deep local intelligence, privileged access, and unwavering attention to detail.
 
-            Every journey is thoughtfully crafted.
-            Every residence meets a refined, consistent standard.
-            Every moment is supported by a dedicated Care team.
-
-            No uncertainty. No guesswork.
-            Just effortless, elevated travel — designed for a life always in motion.
+            Every journey we design is a considered composition of heritage, wilderness, spirituality, and refined
+            luxury tailored entirely to you. We do not offer packages. We create narratives that unfold across
+            landscapes, palaces, and moments that remain unavailable to ordinary tourism.
           </p>
-          <a href="#membership" class="link-underline">About Membership →</a>
+          <a href="#concierge" class="link-underline">Understand Our Approach</a>
         </div>
         <div class="statement-image reveal-fade" style="--delay: 0.3s">
           <div class="img-frame">
-            <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&q=80" alt="Luxury villa"
-              loading="lazy" />
-            <div class="img-caption">Calliope · Mykonos, Greece</div>
+            <img src="image/maharaja_circuit.png" alt="Taj Mahal at dawn" loading="lazy" />
+            <div class="img-caption">City of lakes, Udaipur, Rajasthan</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       HOW IT WORKS
-  ═══════════════════════════════════════════ -->
-  <section class="how-it-works" id="how">
+  <!-- EXPERIENCE PILLARS -->
+  <section class="experiences" id="experiences">
     <div class="container">
       <div class="section-header reveal-fade">
-        <span class="section-eyebrow">The Process</span>
-        <h2 class="section-title">Three Steps to <em>Everything</em></h2>
+        <span class="section-eyebrow">Experience Pillars</span>
+        <h2 class="section-title">Ways to <em>Experience India</em></h2>
+        <p class="section-sub">
+          Not destinations. Not itineraries. These are portals into rare dimensions of India, accessible only through
+          deep relationships and years of cultivation.
+        </p>
       </div>
-      <div class="steps-grid">
-        <div class="step reveal-slide-up" style="--delay: 0s">
-          <div class="step-number">01</div>
-          <div class="step-icon">
-            <svg viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" />
-              <path d="M16 24c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" />
-              <circle cx="24" cy="24" r="3" fill="currentColor" />
-            </svg>
+      <div class="exp-grid">
+        <div class="exp-card reveal-scale" style="--delay: 0s">
+          <div class="exp-img">
+            <img src="image/palace_residences.png" alt="Palace Heritage" loading="lazy" />
+            <div class="exp-overlay"></div>
           </div>
-          <h3 class="step-title">Join the Club</h3>
-          <p class="step-desc">
-            Step into a world where every journey is already taken care of.
-            Choose your membership and unlock access to a curated collection of luxury homes, five-star hotels, and
-            exclusive experiences across the globe.
-          </p>
-        </div>
-        <div class="step-arrow reveal-fade" style="--delay: 0.15s">
-          <svg viewBox="0 0 60 24" fill="none">
-            <path d="M0 12h52M44 4l8 8-8 8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
-          </svg>
-        </div>
-        <div class="step reveal-slide-up" style="--delay: 0.2s">
-          <div class="step-number">02</div>
-          <div class="step-icon">
-            <svg viewBox="0 0 48 48" fill="none">
-              <rect x="8" y="10" width="32" height="28" rx="3" stroke="currentColor" stroke-width="1.5" />
-              <path d="M16 6v8M32 6v8M8 22h32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-              <circle cx="18" cy="32" r="2" fill="currentColor" />
-              <circle cx="24" cy="32" r="2" fill="currentColor" />
-              <circle cx="30" cy="32" r="2" fill="currentColor" />
-            </svg>
+          <div class="exp-content">
+            <span class="exp-tag">Royal Heritage</span>
+            <h3 class="exp-title">Palace Residences and Royal Life</h3>
+            <p class="exp-desc">
+              Private access to living palaces, royal family hosts, and heritage properties unavailable
+              through conventional channels. Experience India as royalty once did.
+            </p>
+            <a href="#inquiry" class="exp-link">Request Access</a>
           </div>
-          <h3 class="step-title">Choose Your Stay</h3>
-          <p class="step-desc">
-            Explore handpicked destinations tailored to your mood, moment, and lifestyle.
-            From private residences to award-winning hotels — your Care team handles every detail, so you don’t have to.
-          </p>
         </div>
-        <div class="step-arrow reveal-fade" style="--delay: 0.35s">
-          <svg viewBox="0 0 60 24" fill="none">
-            <path d="M0 12h52M44 4l8 8-8 8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
-          </svg>
-        </div>
-        <div class="step reveal-slide-up" style="--delay: 0.4s">
-          <div class="step-number">03</div>
-          <div class="step-icon">
-            <svg viewBox="0 0 48 48" fill="none">
-              <path d="M24 6C15.2 6 8 13.2 8 22c0 12 16 20 16 20s16-8 16-20c0-8.8-7.2-16-16-16z" stroke="currentColor"
-                stroke-width="1.5" />
-              <circle cx="24" cy="22" r="5" stroke="currentColor" stroke-width="1.5" />
-            </svg>
+        <div class="exp-card reveal-scale" style="--delay: 0.15s">
+          <div class="exp-img">
+            <img src="image/wildlife_safari.png" alt="Wildlife Safari" loading="lazy" />
+            <div class="exp-overlay"></div>
           </div>
-          <h3 class="step-title">Arrive. Simply Travel.</h3>
-          <p class="step-desc">
-            Arrive to a space that’s ready before you are.
-            From stocked kitchens to seamless reservations — everything is prepared, so you can focus on living the
-            moment.
-          </p>
+          <div class="exp-content">
+            <span class="exp-tag">Wilderness</span>
+            <h3 class="exp-title">Private Safaris and Natural India</h3>
+            <p class="exp-desc">
+              Bespoke wildlife experiences with expert naturalists, exclusive zones, and luxury camps
+              positioned for intimate encounters with India's magnificent biodiversity.
+            </p>
+            <a href="#inquiry" class="exp-link">Plan Your Safari</a>
+          </div>
+        </div>
+        <div class="exp-card reveal-scale" style="--delay: 0.3s">
+          <div class="exp-img">
+            <img src="image/spiritual_rishikesh.png" alt="Spiritual Journey" loading="lazy" />
+            <div class="exp-overlay"></div>
+          </div>
+          <div class="exp-content">
+            <span class="exp-tag">Transformation</span>
+            <h3 class="exp-title">Spiritual and Inner Journeys</h3>
+            <p class="exp-desc">
+              Thoughtfully designed journeys to India's sacred landscapes with sensitive guides,
+              private ceremonies, and spaces for genuine reflection and renewal.
+            </p>
+            <a href="#inquiry" class="exp-link">Begin Your Journey</a>
+          </div>
+        </div>
+        <div class="exp-card reveal-scale" style="--delay: 0.4s">
+          <div class="exp-img">
+            <img src="image/art_culture.png" alt="Cultural Immersion" loading="lazy" />
+            <div class="exp-overlay"></div>
+          </div>
+          <div class="exp-content">
+            <span class="exp-tag">Culture</span>
+            <h3 class="exp-title">Art, Design, and Heritage</h3>
+            <p class="exp-desc">
+              Access to master artisans, private collection viewings, architectural expeditions,
+              and encounters with India's living traditions of craft and creativity.
+            </p>
+            <a href="#inquiry" class="exp-link">Explore Possibilities</a>
+          </div>
+        </div>
+        <div class="exp-card reveal-scale" style="--delay: 0.5s">
+          <div class="exp-img">
+            <img src="image/celebration_palace.png" alt="Celebrations" loading="lazy" />
+            <div class="exp-overlay"></div>
+          </div>
+          <div class="exp-content">
+            <span class="exp-tag">Celebrations</span>
+            <h3 class="exp-title">Milestones and Private Events</h3>
+            <p class="exp-desc">
+              Extraordinary celebrations in heritage venues with complete creative direction,
+              from intimate family gatherings to multi-generational celebrations.
+            </p>
+            <a href="#inquiry" class="exp-link">Discuss Your Vision</a>
+          </div>
+        </div>
+        <div class="exp-card reveal-scale" style="--delay: 0.6s">
+          <div class="exp-img">
+            <img src="image/family_travel.png" alt="Family Travel" loading="lazy" />
+            <div class="exp-overlay"></div>
+          </div>
+          <div class="exp-content">
+            <span class="exp-tag">Family</span>
+            <h3 class="exp-title">Multi-Generational Travel</h3>
+            <p class="exp-desc">
+              Considered journeys designed for families spanning generations, balancing
+              engagement, comfort, and meaningful shared experiences.
+            </p>
+            <a href="#inquiry" class="exp-link">Plan Together</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       DESTINATIONS GRID
-  ═══════════════════════════════════════════ -->
-  <section class="destinations" id="destinations">
+  <!-- SIGNATURE JOURNEYS -->
+  <section class="destinations" id="journeys">
     <div class="container">
       <div class="section-header reveal-fade">
-        <span class="section-eyebrow">The Collection</span>
-        <h2 class="section-title">Where to Go — <em>Right Now</em></h2>
-      </div>
-
-      <div class="dest-filters reveal-fade">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="european">
-          European Summer
-        </button>
-        <button class="filter-btn" data-filter="family">
-          Family Favorites
-        </button>
-        <button class="filter-btn" data-filter="lakeside">
-          Lakeside Living
-        </button>
-        <button class="filter-btn" data-filter="trending">
-          Trending Now
-        </button>
+        <span class="section-eyebrow">Signature Journeys</span>
+        <h2 class="section-title">Curated <em>Narratives</em></h2>
+        <p class="section-sub">
+          Flagship journeys designed over years of relationship-building. Each is a composition of
+          place, experience, and rhythm, refined through execution.
+        </p>
       </div>
 
       <div class="dest-grid" id="destGrid">
-        <div class="dest-card reveal-scale" data-category="european" style="--delay: 0s">
+        <div class="dest-card reveal-scale" style="--delay: 0s">
           <div class="dest-img">
-            <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=600&q=75" alt="Mykonos"
-              loading="lazy" />
+            <img src="image/udaipur_palace.png" alt="Rajasthan Palaces" loading="lazy" />
             <div class="dest-overlay">
-              <a href="#" class="dest-explore">Explore Now ↗</a>
+              <a href="#inquiry" class="dest-explore">Request Details</a>
             </div>
           </div>
           <div class="dest-info">
-            <span class="dest-tag">European Summer</span>
-            <h3 class="dest-name">Calliope</h3>
-            <p class="dest-loc">📍 Mykonos, Greece</p>
+            <span class="dest-tag">Flagship Journey</span>
+            <h3 class="dest-name">The Maharaja Circuit</h3>
+            <p class="dest-loc">Rajasthan, India</p>
             <div class="dest-meta">
-              <span>16 Guests</span>
-              <span>·</span>
-              <span>8 Bedrooms</span>
+              <span>12 Days</span>
+              <span>|</span>
+              <span>Private Palaces</span>
             </div>
           </div>
         </div>
 
-        <div class="dest-card reveal-scale" data-category="european" style="--delay: 0.1s">
+        <div class="dest-card reveal-scale" style="--delay: 0.1s">
           <div class="dest-img">
-            <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600&q=75" alt="Tuscany"
-              loading="lazy" />
+            <img src="image/desert_camp.png" alt="Desert Camp" loading="lazy" />
             <div class="dest-overlay">
-              <a href="#" class="dest-explore">Explore Now ↗</a>
+              <a href="#inquiry" class="dest-explore">Request Details</a>
             </div>
           </div>
           <div class="dest-info">
-            <span class="dest-tag">European Summer</span>
-            <h3 class="dest-name">La Pesa di Sopra</h3>
-            <p class="dest-loc">📍 Tuscany, Italy</p>
+            <span class="dest-tag">Wilderness</span>
+            <h3 class="dest-name">Desert and Fortresses</h3>
+            <p class="dest-loc">Jaisalmer & Jodhpur</p>
             <div class="dest-meta">
-              <span>11 Guests</span>
-              <span>·</span>
-              <span>6 Bedrooms</span>
+              <span>8 Days</span>
+              <span>|</span>
+              <span>Luxury Camps</span>
             </div>
           </div>
         </div>
 
-        <div class="dest-card dest-card--tall reveal-scale" data-category="european" style="--delay: 0.15s">
+        <div class="dest-card dest-card--tall reveal-scale" style="--delay: 0.15s">
           <div class="dest-img">
-            <img src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=600&q=75" alt="Sicily"
-              loading="lazy" />
+            <img src="image/varanasi_ghats.png" alt="Varanasi Ghats" loading="lazy" />
             <div class="dest-overlay">
-              <a href="#" class="dest-explore">Explore Now ↗</a>
+              <a href="#inquiry" class="dest-explore">Request Details</a>
             </div>
           </div>
           <div class="dest-info">
-            <span class="dest-tag">European Summer</span>
-            <h3 class="dest-name">Villa Agata</h3>
-            <p class="dest-loc">📍 Sicily, Italy</p>
+            <span class="dest-tag">Transformation</span>
+            <h3 class="dest-name">Sacred India</h3>
+            <p class="dest-loc">Varanasi, Haridwar, Rishikesh</p>
             <div class="dest-meta">
-              <span>6 Guests</span>
-              <span>·</span>
-              <span>3 Bedrooms</span>
+              <span>10 Days</span>
+              <span>|</span>
+              <span>Ritual & Reflection</span>
             </div>
           </div>
         </div>
 
-        <div class="dest-card reveal-scale" data-category="family" style="--delay: 0.2s">
+        <div class="dest-card reveal-scale" style="--delay: 0.2s">
           <div class="dest-img">
-            <img src="https://images.unsplash.com/photo-1509233725247-49e657c54213?w=600&q=75" alt="Nantucket"
-              loading="lazy" />
+            <img src="image/kerala_backwaters.png" alt="Kerala Backwaters" loading="lazy" />
             <div class="dest-overlay">
-              <a href="#" class="dest-explore">Explore Now ↗</a>
+              <a href="#inquiry" class="dest-explore">Request Details</a>
             </div>
           </div>
           <div class="dest-info">
-            <span class="dest-tag">Family Favorites</span>
-            <h3 class="dest-name">Shearwater</h3>
-            <p class="dest-loc">📍 Nantucket, Massachusetts</p>
+            <span class="dest-tag">Wellness</span>
+            <h3 class="dest-name">Kerala Serenity</h3>
+            <p class="dest-loc">Backwaters & Highlands</p>
             <div class="dest-meta">
-              <span>10 Guests</span>
-              <span>·</span>
-              <span>5 Bedrooms</span>
+              <span>9 Days</span>
+              <span>|</span>
+              <span>Ayurveda & Stillness</span>
             </div>
           </div>
         </div>
 
-        <div class="dest-card dest-card--wide reveal-scale" data-category="family" style="--delay: 0.25s">
+        <div class="dest-card dest-card--wide reveal-scale" style="--delay: 0.25s">
           <div class="dest-img">
-            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=75" alt="Cape Cod"
-              loading="lazy" />
+            <img src="image/himalayan_heights.png" alt="Himalayan Peaks" loading="lazy" />
             <div class="dest-overlay">
-              <a href="#" class="dest-explore">Explore Now ↗</a>
+              <a href="#inquiry" class="dest-explore">Request Details</a>
             </div>
           </div>
           <div class="dest-info">
-            <span class="dest-tag">Family Favorites</span>
-            <h3 class="dest-name">Chatham Bars Inn</h3>
-            <p class="dest-loc">📍 Cape Cod, Massachusetts</p>
+            <span class="dest-tag">Adventure</span>
+            <h3 class="dest-name">Himalayan Heights</h3>
+            <p class="dest-loc">Ladakh, Himachal, Uttarakhand</p>
           </div>
         </div>
 
-        <div class="dest-card reveal-scale" data-category="lakeside" style="--delay: 0.3s">
+        <div class="dest-card reveal-scale" style="--delay: 0.3s">
           <div class="dest-img">
-            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=75" alt="Lake Travis"
-              loading="lazy" />
+            <img src="image/tiger_trail.png" alt="Wildlife Safari India" loading="lazy" />
             <div class="dest-overlay">
-              <a href="#" class="dest-explore">Explore Now ↗</a>
+              <a href="#inquiry" class="dest-explore">Request Details</a>
             </div>
           </div>
           <div class="dest-info">
-            <span class="dest-tag">Lakeside Living</span>
-            <h3 class="dest-name">Creek Hollow</h3>
-            <p class="dest-loc">📍 Lake Travis, Texas</p>
+            <span class="dest-tag">Wildlife</span>
+            <h3 class="dest-name">Tiger Trail</h3>
+            <p class="dest-loc">Central India Reserves</p>
             <div class="dest-meta">
-              <span>14 Guests</span>
-              <span>·</span>
-              <span>6 Bedrooms</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="dest-card reveal-scale" data-category="lakeside" style="--delay: 0.35s">
-          <div class="dest-img">
-            <img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=600&q=75" alt="Vista Landing"
-              loading="lazy" />
-            <div class="dest-overlay">
-              <a href="#" class="dest-explore">Explore Now ↗</a>
-            </div>
-          </div>
-          <div class="dest-info">
-            <span class="dest-tag">Lakeside Living</span>
-            <h3 class="dest-name">Vista Landing</h3>
-            <p class="dest-loc">📍 Lake Travis, Texas</p>
-            <div class="dest-meta">
-              <span>12 Guests</span>
-              <span>·</span>
-              <span>5 Bedrooms</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="dest-card reveal-scale" data-category="trending" style="--delay: 0.4s">
-          <div class="dest-img">
-            <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=600&q=75" alt="Marbella"
-              loading="lazy" />
-            <div class="dest-overlay">
-              <a href="#" class="dest-explore">Explore Now ↗</a>
-            </div>
-          </div>
-          <div class="dest-info">
-            <span class="dest-tag">Trending Now</span>
-            <h3 class="dest-name">Villa Coya</h3>
-            <p class="dest-loc">📍 Marbella, Spain</p>
-            <div class="dest-meta">
-              <span>12 Guests</span>
-              <span>·</span>
-              <span>6 Bedrooms</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="dest-card dest-card--tall reveal-scale" data-category="trending" style="--delay: 0.45s">
-          <div class="dest-img">
-            <img src="https://images.unsplash.com/photo-1452784444945-3f422708fe5e?w=600&q=75" alt="Sonoma"
-              loading="lazy" />
-            <div class="dest-overlay">
-              <a href="#" class="dest-explore">Explore Now ↗</a>
-            </div>
-          </div>
-          <div class="dest-info">
-            <span class="dest-tag">Trending Now</span>
-            <h3 class="dest-name">Villa Della Luna</h3>
-            <p class="dest-loc">📍 Sonoma County, California</p>
-            <div class="dest-meta">
-              <span>8 Guests</span>
-              <span>·</span>
-              <span>4 Bedrooms</span>
+              <span>7 Days</span>
+              <span>|</span>
+              <span>Private Safaris</span>
             </div>
           </div>
         </div>
       </div>
 
       <div class="dest-cta reveal-fade">
-        <a href="#" class="btn btn-outline">View All 300+ Properties</a>
+        <a href="#inquiry" class="btn btn-outline">Request a Private Itinerary</a>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       CARE SECTION
-  ═══════════════════════════════════════════ -->
-  <section class="care-section" id="care">
+  <!-- WHY ELEVATED INDIA -->
+  <section class="care-section" id="concierge">
     <div class="care-inner">
       <div class="care-image reveal-fade">
-        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="Luxury interior"
-          loading="lazy" />
+        <img src="image/private_consultation.png" alt="Private consultation" loading="lazy" />
       </div>
       <div class="care-content">
-        <span class="section-eyebrow reveal-fade">Our Service</span>
+        <span class="section-eyebrow reveal-fade">The Elevated Approach</span>
         <h2 class="section-title reveal-slide-up">
-          A team that <em>travels</em><br />with you.
+          Why travel with <em>Elevated India</em>
         </h2>
         <p class="care-body reveal-fade" style="--delay: 0.2s">
-          Behind every Inspirato stay is a team devoted to making it
-          effortless. We plan the details, answer questions, and prepare your
-          home before you arrive — groceries stocked, reservations secured,
-          every element thoughtfully arranged. Housekeeping at departure
-          ensures you can simply arrive, enjoy, and go.
+          We do not sell travel. We compose journeys. Every engagement begins with understanding your
+          intention, your rhythm, your definition of meaningful. From there, we build experiences
+          unavailable elsewhere, leveraging relationships cultivated over years with royal families,
+          conservationists, artisans, and custodians of India's most protected spaces.
         </p>
         <blockquote class="care-quote reveal-fade" style="--delay: 0.3s">
           <p>
-            "I am confident that Inspirato accommodations will be exceptional
-            and know that anyone I invite to travel with me will have all they
-            need for a great vacation."
+            "Elevated India understood what we sought before we did. They created moments that will
+            remain with our family across generations. This was not a trip. It was a transformation."
           </p>
-          <cite>— Biffy W., Member since 2016</cite>
+          <cite>— Private Client, London</cite>
         </blockquote>
-        <a href="#" class="link-underline reveal-fade" style="--delay: 0.4s">How We Make It Effortless →</a>
+        <a href="#inquiry" class="link-underline reveal-fade" style="--delay: 0.4s">Speak With a Travel Curator</a>
         <div class="care-features reveal-fade" style="--delay: 0.5s">
           <div class="care-feat">
-            <span class="care-feat-icon">✓</span> Pre-arrival grocery stocking
+            <span class="care-feat-icon">&#10003;</span> Privileged local access
           </div>
           <div class="care-feat">
-            <span class="care-feat-icon">✓</span> Restaurant reservations
-            secured
+            <span class="care-feat-icon">&#10003;</span> End-to-end execution
           </div>
           <div class="care-feat">
-            <span class="care-feat-icon">✓</span> 24/7 on-call support
+            <span class="care-feat-icon">&#10003;</span> High-touch concierge
           </div>
           <div class="care-feat">
-            <span class="care-feat-icon">✓</span> Departure housekeeping
-            included
+            <span class="care-feat-icon">&#10003;</span> Complete discretion
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       AI TRIP FINDER
-  ═══════════════════════════════════════════ -->
-  <section class="trip-finder" id="finder">
+  <!-- DESTINATIONS SECTION -->
+  <section class="destinations" id="destinations">
     <div class="container">
       <div class="section-header reveal-fade">
-        <span class="section-eyebrow">AI-Powered Discovery</span>
-        <h2 class="section-title">Find Your <em>Perfect Trip</em></h2>
+        <span class="section-eyebrow">The Canvas</span>
+        <h2 class="section-title">Where We <em>Operate</em></h2>
         <p class="section-sub">
-          Tell us what you're dreaming of. We'll find it.
+          India's geography is vast and varied. We maintain deep expertise across key regions,
+          each offering distinct dimensions of the subcontinent.
         </p>
       </div>
-      <div class="finder-card reveal-slide-up">
-        <div class="finder-grid">
-          <div class="finder-field">
-            <label class="finder-label">Where to?</label>
-            <div class="finder-input-wrap">
-              <svg class="finder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-                <circle cx="12" cy="9" r="2.5" />
-              </svg>
-              <input type="text" class="finder-input" placeholder="Mykonos, Tuscany, Aspen…" id="destInput" />
-            </div>
-          </div>
-          <div class="finder-field">
-            <label class="finder-label">When?</label>
-            <div class="finder-input-wrap">
-              <svg class="finder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <rect x="3" y="4" width="18" height="18" rx="2" />
-                <path d="M16 2v4M8 2v4M3 10h18" />
-              </svg>
-              <input type="text" class="finder-input" placeholder="July 2025, This Winter…" id="dateInput" />
-            </div>
-          </div>
-          <div class="finder-field">
-            <label class="finder-label">What's the mood?</label>
-            <div class="finder-input-wrap">
-              <svg class="finder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M8 13s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01" />
-              </svg>
-              <select class="finder-input finder-select" id="moodInput">
-                <option value="" disabled selected>
-                  Adventure, Romance, Family…
-                </option>
-                <option>Romantic Escape</option>
-                <option>Family Adventure</option>
-                <option>Solo Retreat</option>
-                <option>Group Celebration</option>
-                <option>Beach & Relaxation</option>
-                <option>Mountain & Skiing</option>
-                <option>Cultural Immersion</option>
-                <option>Culinary Journey</option>
-              </select>
-            </div>
-          </div>
-          <button class="finder-btn" id="findTrip">
-            <span id="findBtnText">Find My Trip</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="11" cy="11" r="8" />
-              <path d="m21 21-4.35-4.35" />
-            </svg>
-          </button>
-        </div>
-        <div class="finder-results" id="finderResults"></div>
-      </div>
-    </div>
-  </section>
 
-  <!-- ═══════════════════════════════════════════
-       EXPERIENCES
-  ═══════════════════════════════════════════ -->
-  <section class="experiences" id="experiences">
-    <div class="container">
-      <div class="section-header reveal-fade">
-        <span class="section-eyebrow">Inspirato Only</span>
-        <h2 class="section-title">Go Anywhere. <em>Do Anything.</em></h2>
-        <p class="section-sub">
-          Expeditions. Private charters. Global events. Custom itineraries.
-          Designed for Members who want more than destinations — they want
-          access.
-        </p>
+      <div class="dest-filters reveal-fade">
+        <button class="filter-btn active" data-filter="all">All Regions</button>
+        <button class="filter-btn" data-filter="rajasthan">Rajasthan</button>
+        <button class="filter-btn" data-filter="kerala">Kerala</button>
+        <button class="filter-btn" data-filter="himalayas">Himalayas</button>
+        <button class="filter-btn" data-filter="central">Central India</button>
+        <button class="filter-btn" data-filter="south">South India</button>
       </div>
-      <div class="exp-grid">
-        <div class="exp-card reveal-scale" style="--delay: 0s">
-          <div class="exp-img">
-            <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=700&q=75" alt="Cruise"
-              loading="lazy" />
-            <div class="exp-overlay"></div>
+
+      <div class="dest-grid" id="destGridFilter">
+        <div class="dest-card reveal-scale" data-category="rajasthan" style="--delay: 0s">
+          <div class="dest-img">
+            <img src="image/udaipur_palace.png" alt="Udaipur" loading="lazy" />
+            <div class="dest-overlay">
+              <a href="#inquiry" class="dest-explore">Explore</a>
+            </div>
           </div>
-          <div class="exp-content">
-            <span class="exp-tag">On the Water</span>
-            <h3 class="exp-title">Inspirato Cruises</h3>
-            <p class="exp-desc">
-              Private yacht charters across the Mediterranean, Caribbean, and
-              beyond. Small groups. Extraordinary access.
-            </p>
-            <a href="#" class="exp-link">Explore Cruises →</a>
+          <div class="dest-info">
+            <span class="dest-tag">Rajasthan</span>
+            <h3 class="dest-name">Udaipur</h3>
+            <p class="dest-loc">City of Lakes</p>
           </div>
         </div>
-        <div class="exp-card reveal-scale" style="--delay: 0.15s">
-          <div class="exp-img">
-            <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=700&q=75" alt="Safari"
-              loading="lazy" />
-            <div class="exp-overlay"></div>
+
+        <div class="dest-card reveal-scale" data-category="kerala" style="--delay: 0.1s">
+          <div class="dest-img">
+            <img src="image/kerala_backwaters.png" alt="Kerala" loading="lazy" />
+            <div class="dest-overlay">
+              <a href="#inquiry" class="dest-explore">Explore</a>
+            </div>
           </div>
-          <div class="exp-content">
-            <span class="exp-tag">Wild Encounters</span>
-            <h3 class="exp-title">Inspirato Safaris</h3>
-            <p class="exp-desc">
-              Hand-selected safari lodges. Expert guides. The world's most
-              remote and remarkable wildlife experiences.
-            </p>
-            <a href="#" class="exp-link">Explore Safaris →</a>
+          <div class="dest-info">
+            <span class="dest-tag">Kerala</span>
+            <h3 class="dest-name">Backwaters</h3>
+            <p class="dest-loc">Alleppey & Kumarakom</p>
           </div>
         </div>
-        <div class="exp-card reveal-scale" style="--delay: 0.3s">
-          <div class="exp-img">
-            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=700&q=75" alt="Land Adventures"
-              loading="lazy" />
-            <div class="exp-overlay"></div>
+
+        <div class="dest-card reveal-scale" data-category="himalayas" style="--delay: 0.15s">
+          <div class="dest-img">
+            <img src="image/himalayan_heights.png" alt="Ladakh" loading="lazy" />
+            <div class="dest-overlay">
+              <a href="#inquiry" class="dest-explore">Explore</a>
+            </div>
           </div>
-          <div class="exp-content">
-            <span class="exp-tag">Off the Map</span>
-            <h3 class="exp-title">Land Adventures</h3>
-            <p class="exp-desc">
-              Trek Patagonia. Explore ancient ruins. Summit something
-              extraordinary. These trips are not on any public itinerary.
-            </p>
-            <a href="#" class="exp-link">Explore Adventures →</a>
+          <div class="dest-info">
+            <span class="dest-tag">Himalayas</span>
+            <h3 class="dest-name">Ladakh</h3>
+            <p class="dest-loc">High Altitude Desert</p>
+          </div>
+        </div>
+
+        <div class="dest-card reveal-scale" data-category="central" style="--delay: 0.2s">
+          <div class="dest-img">
+            <img src="image/tiger_trail.png" alt="Madhya Pradesh" loading="lazy" />
+            <div class="dest-overlay">
+              <a href="#inquiry" class="dest-explore">Explore</a>
+            </div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-tag">Central India</span>
+            <h3 class="dest-name">Tiger Reserves</h3>
+            <p class="dest-loc">Madhya Pradesh</p>
+          </div>
+        </div>
+
+        <div class="dest-card reveal-scale" data-category="south" style="--delay: 0.25s">
+          <div class="dest-img">
+            <img src="image/temple_trail.png" alt="Tamil Nadu" loading="lazy" />
+            <div class="dest-overlay">
+              <a href="#inquiry" class="dest-explore">Explore</a>
+            </div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-tag">South India</span>
+            <h3 class="dest-name">Temple Trail</h3>
+            <p class="dest-loc">Tamil Nadu</p>
+          </div>
+        </div>
+
+        <div class="dest-card reveal-scale" data-category="rajasthan" style="--delay: 0.3s">
+          <div class="dest-img">
+            <img src="image/desert_camp.png" alt="Jaisalmer" loading="lazy" />
+            <div class="dest-overlay">
+              <a href="#inquiry" class="dest-explore">Explore</a>
+            </div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-tag">Rajasthan</span>
+            <h3 class="dest-name">Jaisalmer</h3>
+            <p class="dest-loc">Golden City</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       MEMBERSHIP SECTION
-  ═══════════════════════════════════════════ -->
-  <section class="membership" id="membership">
-    <div class="container">
-      <div class="section-header reveal-fade">
-        <span class="section-eyebrow">Membership</span>
-        <h2 class="section-title">Choose Your <em>Level of Access</em></h2>
-        <p class="section-sub">
-          Two ways to travel. One standard of excellence.
-        </p>
-      </div>
-      <div class="plans-grid">
-        <div class="plan-card reveal-slide-up" style="--delay: 0s">
-          <div class="plan-header">
-            <span class="plan-eyebrow">For the Discerning Traveler</span>
-            <h3 class="plan-name">Inspirato Club</h3>
-            <p class="plan-tagline">
-              Curated access. Personal care. No compromises.
-            </p>
-          </div>
-          <div class="plan-divider"></div>
-          <ul class="plan-features">
-            <li>
-              <span class="feat-check">✦</span> Access to 300+ private
-              residences
-            </li>
-            <li>
-              <span class="feat-check">✦</span> 200+ signature hotels with
-              exclusive rates
-            </li>
-            <li>
-              <span class="feat-check">✦</span> Dedicated Care team for every
-              trip
-            </li>
-            <li>
-              <span class="feat-check">✦</span> Grocery pre-stocking &
-              reservations
-            </li>
-            <li>
-              <span class="feat-check">✦</span> Departure housekeeping
-              included
-            </li>
-            <li>
-              <span class="feat-check">✦</span> 170+ global destinations
-            </li>
-          </ul>
-          <a href="#get-started" class="btn btn-outline plan-btn">Learn More</a>
-        </div>
-
-        <div class="plan-card plan-card--featured reveal-slide-up" style="--delay: 0.15s">
-          <div class="plan-badge">Most Popular</div>
-          <div class="plan-header">
-            <span class="plan-eyebrow">Unlimited Travel</span>
-            <h3 class="plan-name">Inspirato Pass</h3>
-            <p class="plan-tagline">
-              One monthly fee. Unlimited trips. Every destination included.
-            </p>
-          </div>
-          <div class="plan-divider"></div>
-          <ul class="plan-features">
-            <li>
-              <span class="feat-check">✦</span> Everything in Club, plus:
-            </li>
-            <li>
-              <span class="feat-check">✦</span> Unlimited trips per year
-            </li>
-            <li>
-              <span class="feat-check">✦</span> No nightly rates — fixed
-              monthly fee
-            </li>
-            <li>
-              <span class="feat-check">✦</span> Last-minute Pass trips
-              available
-            </li>
-            <li>
-              <span class="feat-check">✦</span> Access to Inspirato Only
-              Experiences
-            </li>
-            <li>
-              <span class="feat-check">✦</span> Priority booking windows
-            </li>
-          </ul>
-          <a href="#get-started" class="btn btn-primary plan-btn">Get Started</a>
-        </div>
-      </div>
-      <p class="plans-note reveal-fade">
-        All memberships include full concierge support and access to our Care
-        team. <a href="#" class="link-gold">Compare plans →</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
-       TESTIMONIALS
-  ═══════════════════════════════════════════ -->
+  <!-- TESTIMONIALS -->
   <section class="testimonials" id="testimonials">
     <div class="container">
       <div class="section-header reveal-fade">
-        <span class="section-eyebrow">Member Stories</span>
-        <h2 class="section-title">Told by Those <em>Who Know</em></h2>
+        <span class="section-eyebrow">Guest Reflections</span>
+        <h2 class="section-title">Told by Those <em>Who Travelled</em></h2>
       </div>
     </div>
     <div class="testi-track-wrap">
@@ -757,100 +564,61 @@
       </button>
       <div class="testi-track" id="testiTrack">
         <div class="testi-card">
-          <div class="testi-stars">★★★★★</div>
+          <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
           <p class="testi-text">
-            "The attention to each guest's travel requests was amazing. Every
-            detail handled, changes made seamlessly. This was our 4th yachting
-            cruise with Inspirato. After each one, we say, 'How can Inspirato
-            top this?' You cease to amaze us that each trip has gotten
-            better."
+            "They understood that we wanted more than luxury hotels. We wanted access, meaning,
+            and moments that would resonate with our children for years. Every detail was considered."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar">S</div>
+            <div>
+              <span class="testi-name">The Sharma Family</span>
+              <span class="testi-since">Multi-generational Journey, 2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testi-text">
+            "The private audience with the royal family, the sunrise ceremony at the ghats, the
+            dinner prepared by a palace chef in their private kitchen. These were not experiences
+            we could have arranged ourselves."
           </p>
           <div class="testi-author">
             <div class="testi-avatar">M</div>
             <div>
-              <span class="testi-name">Mary Ann S.</span>
-              <span class="testi-since">Member since 2014</span>
+              <span class="testi-name">Michael R.</span>
+              <span class="testi-since">Private Journey, Rajasthan</span>
             </div>
           </div>
         </div>
         <div class="testi-card">
-          <div class="testi-stars">★★★★★</div>
+          <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
           <p class="testi-text">
-            "Joining Inspirato has been one of the best investments we've ever
-            made. With local contacts and vetted properties, we know the
-            experiences will be consistent and hassle-free. It's given us the
-            gift of creating memories we hold closer with each passing year."
+            "What distinguished Elevated India was the depth of their relationships. We weren't
+            tourists. We were guests. That distinction made every moment feel considered and
+            authentic."
           </p>
           <div class="testi-author">
-            <div class="testi-avatar">W</div>
+            <div class="testi-avatar">J</div>
             <div>
-              <span class="testi-name">Walter W.</span>
-              <span class="testi-since">Member since 2021</span>
+              <span class="testi-name">James & Helena W.</span>
+              <span class="testi-since">Anniversary Celebration, 2023</span>
             </div>
           </div>
         </div>
         <div class="testi-card">
-          <div class="testi-stars">★★★★★</div>
+          <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
           <p class="testi-text">
-            "Travel is a priority for my retirement years. After many years
-            sacrificed to my career, Inspirato has assisted in the
-            rejuvenation of my family connection. We have enjoyed experiences
-            around the globe as a couple and family with the careful
-            assistance of Inspirato."
+            "I've travelled extensively for decades. This was different. The access, the
+            discretion, the absence of any logistical friction. Elevated India has created
+            something genuinely rare."
           </p>
           <div class="testi-author">
-            <div class="testi-avatar">B</div>
+            <div class="testi-avatar">R</div>
             <div>
-              <span class="testi-name">Bob F.</span>
-              <span class="testi-since">Member since 2022</span>
-            </div>
-          </div>
-        </div>
-        <div class="testi-card">
-          <div class="testi-stars">★★★★★</div>
-          <p class="testi-text">
-            "The only problem with Inspirato is that it makes it very
-            difficult to stay at a property that's not an Inspirato property
-            and not be disappointed. The standard is simply that high."
-          </p>
-          <div class="testi-author">
-            <div class="testi-avatar">K</div>
-            <div>
-              <span class="testi-name">Kyle T.</span>
-              <span class="testi-since">Member since 2020</span>
-            </div>
-          </div>
-        </div>
-        <div class="testi-card">
-          <div class="testi-stars">★★★★★</div>
-          <p class="testi-text">
-            "Inspirato's communication was proactive, professional, and warm.
-            They helped us curate an itinerary perfectly suited to us. We felt
-            like the team was wholeheartedly invested in making sure we had an
-            amazing experience, and we would highly recommend Inspirato!"
-          </p>
-          <div class="testi-author">
-            <div class="testi-avatar">M</div>
-            <div>
-              <span class="testi-name">Michael B.</span>
-              <span class="testi-since">Member since 2015</span>
-            </div>
-          </div>
-        </div>
-        <div class="testi-card">
-          <div class="testi-stars">★★★★★</div>
-          <p class="testi-text">
-            "I've been on trips that did not include Inspirato's oversight,
-            and the experience is much different. With Inspirato,
-            communication, service, and food quality are top-shelf. Most of
-            all, the relationship between the passengers makes the trip much
-            more enjoyable."
-          </p>
-          <div class="testi-author">
-            <div class="testi-avatar">D</div>
-            <div>
-              <span class="testi-name">Dave A.</span>
-              <span class="testi-since">Member since 2016</span>
+              <span class="testi-name">Robert T.</span>
+              <span class="testi-since">Spiritual Journey, Varanasi</span>
             </div>
           </div>
         </div>
@@ -864,288 +632,194 @@
     <div class="testi-dots" id="testiDots"></div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       SIGNATURE HOTELS
-  ═══════════════════════════════════════════ -->
-  <section class="hotels" id="hotels">
+  <!-- JOURNAL -->
+  <section class="editorial" id="journal">
     <div class="container">
       <div class="section-header reveal-fade">
-        <span class="section-eyebrow">Signature Hotels</span>
-        <h2 class="section-title">The Right Hotel. <em>Every Time.</em></h2>
-        <p class="section-sub">
-          Five-star hotels across the world — thoughtfully curated for
-          Members. Preferred rates. Exclusive amenities. Book with confidence.
-          Arrive with recognition.
-        </p>
-      </div>
-      <div class="hotels-scroll reveal-fade">
-        <div class="hotels-track">
-          <div class="hotel-pill">Grace Bay Club · Turks & Caicos</div>
-          <div class="hotel-pill">Sonnenalp · Vail, Colorado</div>
-          <div class="hotel-pill">The Langham · London</div>
-          <div class="hotel-pill">Almanac Barcelona · Spain</div>
-          <div class="hotel-pill">Casa Palmero · Pebble Beach</div>
-          <div class="hotel-pill">Viceroy Los Cabos · Mexico</div>
-          <div class="hotel-pill">Fairmont Kea Lani · Maui</div>
-          <div class="hotel-pill">The Dominick · New York</div>
-          <div class="hotel-pill">The Newbury · Boston</div>
-          <div class="hotel-pill">Chatham Bars Inn · Cape Cod</div>
-          <!-- duplicate for infinite loop -->
-          <div class="hotel-pill">Grace Bay Club · Turks & Caicos</div>
-          <div class="hotel-pill">Sonnenalp · Vail, Colorado</div>
-          <div class="hotel-pill">The Langham · London</div>
-          <div class="hotel-pill">Almanac Barcelona · Spain</div>
-        </div>
-      </div>
-      <div class="hotels-grid reveal-fade" style="--delay: 0.2s">
-        <div class="hotel-card">
-          <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=500&q=75" alt="Grace Bay"
-            loading="lazy" />
-          <div class="hotel-info">
-            <h4>Grace Bay Club</h4>
-            <p>Turks &amp; Caicos</p>
-          </div>
-        </div>
-        <div class="hotel-card">
-          <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500&q=75" alt="Vail"
-            loading="lazy" />
-          <div class="hotel-info">
-            <h4>Sonnenalp</h4>
-            <p>Vail, Colorado</p>
-          </div>
-        </div>
-        <div class="hotel-card">
-          <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=500&q=75" alt="Langham London"
-            loading="lazy" />
-          <div class="hotel-info">
-            <h4>The Langham</h4>
-            <p>London, England</p>
-          </div>
-        </div>
-        <div class="hotel-card">
-          <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=500&q=75" alt="Fairmont Maui"
-            loading="lazy" />
-          <div class="hotel-info">
-            <h4>Fairmont Kea Lani</h4>
-            <p>Wailea, Maui</p>
-          </div>
-        </div>
-      </div>
-      <div class="dest-cta reveal-fade">
-        <a href="#" class="btn btn-outline">Browse All Signature Hotels</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- COMPANY LOGO BIDIRATION -->
-
-  <section class="premium-marquee">
-    <div class="marquee-wrapper">
-      <div class="marquee-track dir-left">
-        <div class="marquee-items">
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">✈️</span><span class="cart-label">Airlines</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image1.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">🏨</span><span class="cart-label">Airports</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image4.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">✈️</span><span class="cart-label">Airports</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image5.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">🏨</span><span class="cart-label">Airports</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image2.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">✈️</span><span class="cart-label">Airports</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image2.png')"></div>
-            <div class="card-cart">...</div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image3.png')"></div>
-            <div class="card-cart">...</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="marquee-track dir-right">
-        <div class="marquee-items">
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image6.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">💻</span><span class="cart-label">Semiconductor</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image7.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">🔬</span><span class="cart-label">Life Sciences</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image10.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">💻</span><span class="cart-label">Life Sciences</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image11.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">🔬</span><span class="cart-label">Life Sciences</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image8.png')"></div>
-            <div class="card-cart">...</div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image9.png')"></div>
-            <div class="card-cart">...</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="marquee-track dir-left">
-        <div class="marquee-items">
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image12.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">🛍️</span><span class="cart-label">Retail</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image13.png')"></div>
-            <div class="card-cart">
-              <span class="cart-icon">📦</span><span class="cart-label">Logistics</span>
-            </div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image14.png')"></div>
-            <div class="card-cart">...</div>
-          </div>
-          <div class="marquee-card">
-            <div class="card-bg" style="background-image: url('image/image15.png')"></div>
-            <div class="card-cart">...</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
-       EDITORIAL / BLOG
-  ═══════════════════════════════════════════ -->
-  <section class="editorial" id="editorial">
-    <div class="container">
-      <div class="section-header reveal-fade">
-        <span class="section-eyebrow">In the Details</span>
-        <h2 class="section-title">
-          Ideas, Inspiration, <em>Perspectives</em>
-        </h2>
+        <span class="section-eyebrow">Journal</span>
+        <h2 class="section-title">Stories, Insights, <em>Perspectives</em></h2>
       </div>
       <div class="editorial-grid">
         <div class="edit-card reveal-slide-up" style="--delay: 0s">
           <div class="edit-img">
-            <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=600&q=75" alt="Cruise 2027"
-              loading="lazy" />
-            <span class="edit-tag">Trending Now</span>
+            <img src="image/palace_residences.png" alt="Palace Hotels" loading="lazy" />
+            <span class="edit-tag">Heritage</span>
           </div>
           <div class="edit-content">
-            <span class="edit-meta">2 min read · February 2026</span>
+            <span class="edit-meta">5 min read</span>
             <h3 class="edit-title">
-              Six Very Good Reasons to Set Sail in 2027
+              Beyond Hotels: India's Living Palace Residences
             </h3>
-            <a href="#" class="link-underline">Read More →</a>
+            <a href="#" class="link-underline">Read</a>
           </div>
         </div>
         <div class="edit-card reveal-slide-up" style="--delay: 0.15s">
           <div class="edit-img">
-            <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&q=75" alt="Spring Break"
-              loading="lazy" />
-            <span class="edit-tag">Insider's Guide</span>
+            <img src="image/spiritual_rishikesh.png" alt="Spiritual India" loading="lazy" />
+            <span class="edit-tag">Transformation</span>
           </div>
           <div class="edit-content">
-            <span class="edit-meta">2 min read · February 2026</span>
-            <h3 class="edit-title">The Spring Break Shortlist</h3>
-            <a href="#" class="link-underline">Read More →</a>
+            <span class="edit-meta">7 min read</span>
+            <h3 class="edit-title">Approaching India's Sacred Landscapes With Sensitivity</h3>
+            <a href="#" class="link-underline">Read</a>
           </div>
         </div>
         <div class="edit-card reveal-slide-up" style="--delay: 0.3s">
           <div class="edit-img">
-            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=75" alt="New Hotels"
-              loading="lazy" />
-            <span class="edit-tag">What's New</span>
+            <img src="image/wildlife_safari.png" alt="Wildlife" loading="lazy" />
+            <span class="edit-tag">Wildlife</span>
           </div>
           <div class="edit-content">
-            <span class="edit-meta">2 min read · February 2026</span>
+            <span class="edit-meta">6 min read</span>
             <h3 class="edit-title">
-              Five New Luxury Hotels Join the Inspirato Collection
+              The Art of the Indian Safari: A Curated Guide
             </h3>
-            <a href="#" class="link-underline">Read More →</a>
+            <a href="#" class="link-underline">Read</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       FINAL CTA
-  ═══════════════════════════════════════════ -->
-  <section class="final-cta" id="get-started">
+  <!-- INQUIRY FORM -->
+  <section class="trip-finder" id="inquiry">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-eyebrow">Begin Your Journey</span>
+        <h2 class="section-title">Request a <em>Private Consultation</em></h2>
+        <p class="section-sub">
+          Every journey begins with understanding. Share your vision, and our curators will
+          design a considered proposal tailored to you.
+        </p>
+      </div>
+      <div class="finder-card reveal-slide-up">
+        <form class="finder-grid inquiry-form" id="inquiryForm">
+          <div class="finder-field">
+            <label class="finder-label">Your Name</label>
+            <div class="finder-input-wrap">
+              <svg class="finder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="8" r="4" />
+                <path d="M4 20c0-4 4-7 8-7s8 3 8 7" />
+              </svg>
+              <input type="text" class="finder-input" placeholder="Your full name" id="nameInput" required />
+            </div>
+          </div>
+          <div class="finder-field">
+            <label class="finder-label">Email</label>
+            <div class="finder-input-wrap">
+              <svg class="finder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="6" width="18" height="12" rx="2" />
+                <path d="M3 8l9 5 9-5" />
+              </svg>
+              <input type="email" class="finder-input" placeholder="your@email.com" id="emailInput" required />
+            </div>
+          </div>
+          <div class="finder-field">
+            <label class="finder-label">Travel Interest</label>
+            <div class="finder-input-wrap">
+              <svg class="finder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+                <circle cx="12" cy="9" r="2.5" />
+              </svg>
+              <select class="finder-input finder-select" id="interestInput" required>
+                <option value="" disabled selected>Select your interest</option>
+                <option>Royal Heritage & Palaces</option>
+                <option>Wildlife & Safari</option>
+                <option>Spiritual Journey</option>
+                <option>Cultural Immersion</option>
+                <option>Celebration or Milestone</option>
+                <option>Family Multi-Generational</option>
+                <option>Honeymoon or Romantic</option>
+                <option>Other Bespoke</option>
+              </select>
+            </div>
+          </div>
+          <div class="finder-field">
+            <label class="finder-label">Travel Window</label>
+            <div class="finder-input-wrap">
+              <svg class="finder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+                <path d="M16 2v4M8 2v4M3 10h18" />
+              </svg>
+              <input type="text" class="finder-input" placeholder="Preferred dates or season" id="dateInput" />
+            </div>
+          </div>
+          <div class="finder-field">
+            <label class="finder-label">Number of Guests</label>
+            <div class="finder-input-wrap">
+              <svg class="finder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="9" cy="7" r="3" />
+                <circle cx="17" cy="7" r="3" />
+                <path d="M3 21v-2a4 4 0 014-4h4a4 4 0 014 4v2" />
+              </svg>
+              <select class="finder-input finder-select" id="guestsInput">
+                <option value="" disabled selected>Number of travellers</option>
+                <option>2 guests</option>
+                <option>3-4 guests</option>
+                <option>5-8 guests</option>
+                <option>9-12 guests</option>
+                <option>13+ guests</option>
+              </select>
+            </div>
+          </div>
+          <div class="finder-field full-width">
+            <label class="finder-label">Additional Notes</label>
+            <div class="finder-input-wrap textarea-wrap">
+              <textarea class="finder-input finder-textarea"
+                placeholder="Tell us about your vision, preferences, or any special requirements..."
+                id="notesInput"></textarea>
+            </div>
+          </div>
+          <button class="finder-btn" type="submit" id="submitInquiry">
+            <span id="findBtnText">Request Private Consultation</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </form>
+        <div class="finder-results" id="finderResults"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta" id="contact">
     <div class="cta-bg">
       <div class="cta-bg-img"></div>
       <div class="cta-overlay"></div>
     </div>
     <div class="cta-content reveal-fade">
-      <span class="section-eyebrow" style="color: var(--gold)">Begin Today</span>
-      <h2 class="cta-headline">Your Next Great Trip <em>Starts Here.</em></h2>
+      <span class="section-eyebrow" style="color: #d7b27e">Your Journey Awaits</span>
+      <h2 class="cta-headline">India, <em>Considered.</em></h2>
       <p class="cta-sub">
-        Create your account to explore the Inspirato portfolio and view member
-        rates and availability.
+        For those who travel not to see, but to understand. Not to consume, but to connect.
+        We await your vision.
       </p>
       <div class="cta-actions">
-        <a href="#" class="btn btn-primary btn-large">
-          <span>Get Started</span>
+        <a href="#inquiry" class="btn btn-primary btn-large">
+          <span>Design My Journey</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
-        <a href="#" class="btn btn-ghost-white">Schedule a Tour</a>
+        <a href="https://wa.me/919876543210" class="btn btn-ghost-white" target="_blank">WhatsApp Concierge</a>
       </div>
       <p class="cta-phone">
-        Or call us:
-        <a href="tel:3035867771" class="link-gold">(303) 586-7771</a>
+        Or speak directly:
+        <a href="tel:+919876543210" class="link-gold">+91 98765 43210</a>
       </p>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       NEWSLETTER
-  ═══════════════════════════════════════════ -->
+  <!-- NEWSLETTER -->
   <section class="newsletter">
     <div class="container">
       <div class="news-inner reveal-fade">
         <div class="news-text">
-          <h3>Be the first to <em>know</em></h3>
+          <h3>Receive <em>rare</em> insights</h3>
           <p>
-            Destination inspiration, notable stays, and member-only news —
-            delivered to your inbox.
+            Curated dispatches on India's most exceptional experiences, seasonal guidance,
+            and behind-the-scenes access. Quietly delivered.
           </p>
         </div>
         <div class="news-form">
@@ -1156,30 +830,21 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       FOOTER
-  ═══════════════════════════════════════════ -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <img src="image/8.png" alt="" class="logo-img">
-          <!-- <div class="footer-logo">
-            <span class="logo-mark">✦</span>
-            <span class="logo-text">INSPIRATO</span>
-          </div> -->
-          <p class="footer-tagline">Luxury Travel. Without the Hassle.</p>
+          <img src="image/8.png" alt="Elevated India" class="logo-img">
+          <p class="footer-tagline">A Private Travel House</p>
+          <p class="footer-description">
+            Curating bespoke journeys across India for discerning global travellers.
+          </p>
           <div class="footer-socials">
             <a href="#" class="social-link" aria-label="Instagram">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path
                   d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-              </svg>
-            </a>
-            <a href="#" class="social-link" aria-label="Facebook">
-              <svg viewBox="0 0 24 24" fill="currentColor">
-                <path
-                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
               </svg>
             </a>
             <a href="#" class="social-link" aria-label="LinkedIn">
@@ -1193,50 +858,45 @@
 
         <div class="footer-cols">
           <div class="footer-col">
-            <h4 class="footer-col-title">Travel</h4>
-            <a href="#">The Club</a>
-            <a href="#">Inspirato Pass</a>
-            <a href="#">Inspirato Only Experiences</a>
-            <a href="#">Bespoke</a>
+            <h4 class="footer-col-title">Journeys</h4>
+            <a href="#">Signature Journeys</a>
+            <a href="#">Royal Heritage</a>
+            <a href="#">Wildlife & Safari</a>
+            <a href="#">Spiritual India</a>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-col-title">Experiences</h4>
+            <a href="#">Wellness</a>
+            <a href="#">Cultural Immersion</a>
+            <a href="#">Celebrations</a>
+            <a href="#">Family Travel</a>
           </div>
           <div class="footer-col">
             <h4 class="footer-col-title">Company</h4>
             <a href="#">About Us</a>
-            <a href="#">Press</a>
-            <a href="#">Video Gallery</a>
-            <a href="#">Careers</a>
+            <a href="#">Our Philosophy</a>
+            <a href="#">Journal</a>
+            <a href="#">Contact</a>
           </div>
           <div class="footer-col">
-            <h4 class="footer-col-title">Help</h4>
-            <a href="#">Contact Us</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Legal Notices</a>
-            <a href="#">Accessibility</a>
-          </div>
-          <div class="footer-col">
-            <h4 class="footer-col-title">More</h4>
-            <a href="#">Inspirato Real Estate</a>
-            <a href="#">Blog</a>
-            <a href="#">Magazine</a>
-            <a href="#">Inspirato Store</a>
+            <h4 class="footer-col-title">Contact</h4>
+            <a href="tel:+919876543210">+91 98765 43210</a>
+            <a href="mailto:curate@elevatedindia.com">curate@elevatedindia.com</a>
+            <a href="#">New Delhi, India</a>
           </div>
         </div>
       </div>
 
       <div class="footer-bottom">
         <p>
-          Inspirato® is owned by Inspirato LLC. ©Copyright 2026 Inspirato LLC.
-          All rights reserved.
+          &copy; 2025 Elevated India. All rights reserved. Designed with intention.
         </p>
         <div class="footer-links">
-          <a href="#">For Business</a>
-          <a href="#">For Good</a>
-          <a href="#">Cookie Preferences</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
         </div>
       </div>
     </div>
-
-    <!-- MAGNETIC FEATURE  -->
 
     <div class="cursor-outline"></div>
     <div class="cursor-dot"></div>
@@ -1244,7 +904,6 @@
 
   <script src="script.js"></script>
   <script>
-    // Responsive Navbar Menu Toggle
     document.addEventListener('DOMContentLoaded', () => {
       const navHamburger = document.getElementById('navHamburger');
       const navMenu = document.getElementById('navMenu');
